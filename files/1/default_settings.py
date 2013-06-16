@@ -3,7 +3,7 @@
 DEBUG = False
 TEMPLATE_DEBUG = False
 USE_SOUTH = True
-ADMINS = [('Devtune Admin', 'admin@devtune.biz'),]
+ADMINS = [('Devtune Admin', 'admin@devtune.biz')]
 MANAGERS = ADMINS
 USE_I18N = True
 USE_L10N = True

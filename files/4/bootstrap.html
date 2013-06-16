@@ -1,0 +1,14 @@
+<!-- my_app/plugins/bootstrap/templates/base.html -->
+{% overextends "base.html" %}
+
+
+{% block base_styles %}
+    {{ block.super }}
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" rel="stylesheet">
+{% endblock %}
+
+
+{% block js_libs %}
+    {{ block.super }}
+    <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script>
+{% endblock %}

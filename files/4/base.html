@@ -1,0 +1,22 @@
+<!-- my_app/templates/base.html -->
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    {% block base_styles %}{% endblock %}
+</head>
+<body>
+    <header id="header">
+        {% block header %}{% endblock %}
+    </header>
+
+   <div role="main" id="main">
+        {% block main %}{% endblock %}
+    </div>
+
+    <footer id="footer">
+        {% block footer %}{% endblock %}
+    </footer>
+
+    {% block js_libs %}{% endblock %}
+</body>
+</html>

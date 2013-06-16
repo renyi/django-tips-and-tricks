@@ -1,0 +1,8 @@
+<!-- my_app/plugins/jquery/templates/base.html -->
+{% overextends "base.html" %}
+
+
+{% block js_libs %}
+    {{ block.super }}
+    <script src="//code.jquery.com/jquery-1.8.3.min.js"></script>
+{% endblock %}
