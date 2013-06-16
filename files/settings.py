@@ -2,7 +2,7 @@
 
 from .default_settings import *
 
-# Insers default theme app
+# Inserts default theme app
 INSTALLED_APPS.insert(1, "my_project.themes.default")
 
 # Removes CSRF checking
