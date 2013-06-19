@@ -1,7 +1,7 @@
 Description
 -----------
 
-My presentation files for Python User Group Malaysia, June 2013.
+My presentation snippets for Python User Group Malaysia, June 2013.
 
 
 Notes
